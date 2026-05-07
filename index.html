@@ -2,301 +2,304 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>David Yang | Applied AI Engineer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-
-  <!-- CSS -->
+  <title>David Yang — Applied AI Engineer</title>
+  <meta name="description" content="David Yang — Applied AI Engineer building real-world AI systems with LLMs, RAG, and product-focused engineering.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<!-- Navigation -->
-<nav>
-  <div class="logo">David Yang</div>
-  <div class="nav-links">
-    <a href="#about">About</a>
-    <a href="#experience">Experience</a>
-    <a href="#projects">Projects</a>
-    <a href="#research">Research</a>
-    <a href="#skills">Skills</a>
-    <a href="#resume">Resume</a>
-    <a href="#contact">Contact</a>
-  </div>
-</nav>
+  <!-- Navigation -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">David Yang</a>
+      <div class="nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="assets/resume.pdf" target="_blank" class="nav-link nav-link-resume">Resume</a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
 
-<!-- Hero Section -->
-<header class="hero">
-  <div class="hero-container">
-
-    <div class="hero-text">
-      <p class="hero-label">Applied AI Engineer & Informatics Student</p>
-      <h1>David Yang</h1>
-      <p class="hero-desc">
-        Building real-time AI systems, retrieval pipelines, and intelligent data-driven applications
-        focused on LLM integration, computer vision, and scalable infrastructure.
-      </p>
-      <p class="hero-stack">C++ &nbsp;·&nbsp; Python &nbsp;·&nbsp; RAG &nbsp;·&nbsp; Vector Retrieval &nbsp;·&nbsp; React &nbsp;·&nbsp; FastAPI &nbsp;·&nbsp; Computer Vision</p>
-
-      <div class="hero-buttons">
-        <a href="assets/resume.pdf" download class="btn-primary">Download Resume</a>
-        <a href="https://linkedin.com/in/david-k-yang/" target="_blank" class="btn-secondary">LinkedIn</a>
-        <a href="https://github.com/yangkaiwen2002" target="_blank" class="btn-secondary">GitHub</a>
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <div class="hero-tag">Applied AI Engineer</div>
+        <h1 class="hero-name">David Yang</h1>
+        <p class="hero-headline">
+          Building real-world AI systems with LLMs,<br>RAG, APIs, and product-focused engineering.
+        </p>
+        <p class="hero-sub">
+          I design and ship production-oriented AI workflows — combining data ingestion, retrieval pipelines, model reasoning, and user-facing systems into cohesive, working products.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="assets/resume.pdf" target="_blank" class="btn btn-secondary">Resume</a>
+          <a href="https://github.com/yangkaiwen2002" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/profile.jpg" alt="David Yang">
       </div>
     </div>
+  </section>
 
-    <div class="hero-image">
-      <img src="assets/profile.jpg" alt="David Yang">
-    </div>
-
-  </div>
-</header>
-
-<!-- About -->
-<section id="about" class="section fade-in">
-  <h2>About Me</h2>
-  <p>
-    I build real-time AI systems and intelligent applications focused on retrieval pipelines, behavior modeling,
-    and large-scale data processing. My experience spans computer vision, graph-based reasoning, LLM-powered systems,
-    and scalable backend infrastructure. Through internships, research, and independent projects, I have worked on
-    production-oriented AI workflows involving C++, Python, vector retrieval, and real-time inference systems.
-  </p>
-  <p style="margin-block-start:16px;">
-    Currently an Informatics student at the University of Washington, graduating June 2026.
-  </p>
-</section>
-
-<!-- Experience -->
-<section id="experience" class="section fade-in">
-  <h2>Experience</h2>
-
-  <div class="card">
-    <div class="card-header">
-      <div>
-        <h3>AI Engineering Intern</h3>
-        <p class="card-company">Aqrose Technology &nbsp;·&nbsp; 2025</p>
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-label reveal">About</div>
+      <h2 class="section-title reveal">I build AI systems, not just models.</h2>
+      <div class="about-grid">
+        <div class="about-block reveal">
+          <h3>Systems Thinking</h3>
+          <p>I approach AI from an architecture-first perspective — designing retrieval pipelines, structured outputs, and modular reasoning flows that hold up in production, not just in notebooks.</p>
+        </div>
+        <div class="about-block reveal">
+          <h3>API & Integration Layer</h3>
+          <p>My work lives at the intersection of LLM APIs, backend services, and data pipelines. I care about how systems connect and where latency, reliability, and context quality actually matter.</p>
+        </div>
+        <div class="about-block reveal">
+          <h3>Product Execution</h3>
+          <p>I combine engineering precision with product instinct — turning AI capabilities into interfaces and workflows that are actually usable, not just technically impressive.</p>
+        </div>
+        <div class="about-block reveal">
+          <h3>Background</h3>
+          <p>Informatics student at the University of Washington, graduating June 2026. AI Engineering Intern at Aqrose Technology (2025), building real-time C++ video analysis systems. Data Processing Intern at Tsinghua University's Intelligent Vision Lab (2023). Co-authored a peer-reviewed publication in <em>Sensors</em> (MDPI, 2024).</p>
+        </div>
       </div>
     </div>
-    <ul>
-      <li>Engineered a C++ behavior retrieval module for a real-time industrial AI monitoring system, improving inference stability by <strong>20%</strong> and reducing inconsistent predictions by <strong>25%</strong>.</li>
-      <li>Modeled worker behaviors as directed graphs to enforce valid state transitions, increasing action recognition accuracy by <strong>30%</strong> while reducing edge-case error propagation.</li>
-      <li>Integrated low-latency tracking pipelines achieving behavior matching under <strong>50ms</strong> for continuous workflow monitoring.</li>
-      <li>Developed debugging and validation tools to analyze graph integrity, failure cases, and system-level reliability.</li>
-    </ul>
-  </div>
+  </section>
 
-  <div class="card">
-    <div class="card-header">
-      <div>
-        <h3>Linux Data Processing Intern</h3>
-        <p class="card-company">Tsinghua University</p>
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-label reveal">Experience</div>
+      <h2 class="section-title reveal">Work History</h2>
+      <div class="experience-list">
+
+        <div class="exp-card reveal">
+          <div class="exp-meta">
+            <div class="exp-left">
+              <h3 class="exp-title">AI Engineering Intern</h3>
+              <p class="exp-company">Aqrose Technology Co., Ltd. — Beijing, China</p>
+            </div>
+            <span class="exp-date">Jun – Sep 2025</span>
+          </div>
+          <ul class="project-bullets">
+            <li>Architected a C++ behavior retrieval module for real-time video analysis across 50+ concurrent streams, improving workflow monitoring accuracy by ~20%</li>
+            <li>Modeled worker behaviors as directed graphs, improving inference consistency by ~25% and reducing transition errors in real-time action pipelines</li>
+            <li>Optimized processing performance for high-throughput video streams, reducing end-to-end latency by ~15%</li>
+            <li>Integrated AI modules into distributed systems to support scalable analysis across 1,000+ hours of video data</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-tag">C++</span>
+            <span class="tech-tag">Directed Graphs</span>
+            <span class="tech-tag">Real-time Systems</span>
+            <span class="tech-tag">Video Analytics</span>
+          </div>
+        </div>
+
+        <div class="exp-card reveal">
+          <div class="exp-meta">
+            <div class="exp-left">
+              <h3 class="exp-title">Data Processing Intern</h3>
+              <p class="exp-company">Tsinghua University – Intelligent Vision & Multimedia Lab — Beijing, China</p>
+            </div>
+            <span class="exp-date">Jun – Dec 2023</span>
+          </div>
+          <ul class="project-bullets">
+            <li>Processed 10TB+ video datasets across 100+ sequences, supporting large-scale OCR and computer vision workflows</li>
+            <li>Built preprocessing pipelines using frame-similarity filtering, reducing redundant frames by ~30%</li>
+            <li>Automated data cleaning and transformation, improving efficiency and consistency of training data preparation</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Linux</span>
+            <span class="tech-tag">OpenCV</span>
+            <span class="tech-tag">Data Pipelines</span>
+          </div>
+        </div>
+
       </div>
     </div>
-    <ul>
-      <li>Processed and analyzed <strong>10TB+</strong> of large-scale video datasets across <strong>100+ sequences</strong> to support OCR and computer vision research workflows.</li>
-      <li>Designed preprocessing pipelines with frame-similarity filtering, reducing redundant frames by <strong>~30%</strong> and improving downstream data quality.</li>
-      <li>Optimized Linux-based data processing pipelines to support scalable model training, evaluation, and reproducible experimentation.</li>
-    </ul>
-  </div>
+  </section>
 
-  <div class="card">
-    <div class="card-header">
-      <div>
-        <h3>Software Testing Intern</h3>
-        <p class="card-company">Zhengxin Microelectronics</p>
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-label reveal">Projects</div>
+      <h2 class="section-title reveal">Featured Work</h2>
+      <div class="projects-grid">
+
+        <!-- SenseSkin AI — Featured -->
+        <div class="project-card project-featured reveal">
+          <div class="project-header">
+            <div>
+              <span class="project-badge">Featured · Jan 2026 – Present</span>
+              <h3 class="project-name">SenseSkin AI — AI-Powered Market Analysis System</h3>
+            </div>
+          </div>
+          <p class="project-desc">
+            An AI-driven market intelligence system integrating Steam Marketplace data for real-time CS2 skin valuation, grounded LLM reasoning via RAG, and multi-factor scoring to identify undervalued assets.
+          </p>
+          <ul class="project-bullets">
+            <li>Architected end-to-end data pipelines for ingestion, cleaning, and caching to enable low-latency analysis</li>
+            <li>Implemented a RAG pipeline to ground LLM outputs in live market data</li>
+            <li>Developed a multi-factor scoring model (momentum, volatility, liquidity, demand) to identify undervalued assets</li>
+            <li>Optimized query-response workflow, achieving &gt;90% response accuracy</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">FastAPI</span>
+            <span class="tech-tag">Claude API</span>
+            <span class="tech-tag">RAG</span>
+            <span class="tech-tag">PostgreSQL</span>
+          </div>
+        </div>
+
+        <!-- PENDA -->
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div>
+              <span class="project-badge">Jan 2026 – Present</span>
+              <h3 class="project-name">PENDA</h3>
+            </div>
+          </div>
+          <p class="project-desc">
+            A community event discovery and recommendation platform with 70+ Seattle listings across 8 neighborhoods, built around filtering, engagement-based ranking, and persistent user flows.
+          </p>
+          <ul class="project-bullets">
+            <li>Multi-criteria filtering: neighborhood, category, date, cost, keyword, accessibility</li>
+            <li>Engagement-based ranking and persistent like/bookmark flows via local storage</li>
+            <li>Supabase integration for auth, event data storage, and attendance tracking</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Vite</span>
+            <span class="tech-tag">Supabase</span>
+          </div>
+        </div>
+
+        <!-- Research -->
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div>
+              <span class="project-badge">Publication · Sensors, MDPI 2024</span>
+              <h3 class="project-name">Single-Line LiDAR Localization</h3>
+            </div>
+          </div>
+          <p class="project-desc">
+            Co-authored a peer-reviewed paper introducing CSMUL, a localization framework improving single-line LiDAR performance in dynamic and degenerate environments.
+          </p>
+          <ul class="project-bullets">
+            <li>Processed LiDAR datasets (100k+ points per run) to evaluate localization in dynamic environments</li>
+            <li>Implemented contribution sampling and map update strategies for accuracy and robustness</li>
+            <li>Published in <em>Sensors</em>, Vol. 24(12), 3927 — Jiang, X., Yang, D. K., et al.</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">LiDAR</span>
+            <span class="tech-tag">Localization</span>
+          </div>
+          <div class="project-links">
+            <a href="https://doi.org/10.3390/s24123927" target="_blank" rel="noopener" class="project-link">View Publication ↗</a>
+            <a href="assets/sensors-24-03927.pdf" target="_blank" class="project-link project-link-ghost">Download PDF</a>
+          </div>
+        </div>
+
       </div>
     </div>
-    <ul>
-      <li>Designed and executed <strong>50+</strong> automated and manual test cases to evaluate UI workflows, form validation, and backend data handling.</li>
-      <li>Identified SQL injection and XSS vulnerabilities through targeted edge-case testing.</li>
-      <li>Collaborated with developers to patch authentication and input-validation flaws.</li>
-      <li>Documented reproducible test cases and security findings using Python and Excel.</li>
-    </ul>
-  </div>
+  </section>
 
-</section>
-
-<!-- Featured Projects -->
-<section id="projects" class="section fade-in">
-  <h2>Featured Projects</h2>
-
-  <div class="card">
-    <div class="card-header">
-      <div>
-        <h3>SenseSkin AI — AI Market Intelligence Platform</h3>
-        <p class="card-company">Independent Project</p>
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-label reveal">Skills</div>
+      <h2 class="section-title reveal">Technical Stack</h2>
+      <div class="skills-grid">
+        <div class="skills-group reveal">
+          <h3 class="skills-group-title">AI / ML</h3>
+          <ul class="skills-list">
+            <li>LLM Applications</li>
+            <li>RAG</li>
+            <li>Information Retrieval</li>
+            <li>Prompt Engineering</li>
+            <li>PyTorch</li>
+            <li>Data Pipelines</li>
+          </ul>
+        </div>
+        <div class="skills-group reveal">
+          <h3 class="skills-group-title">Backend & Systems</h3>
+          <ul class="skills-list">
+            <li>Python</li>
+            <li>C++</li>
+            <li>SQL</li>
+            <li>REST APIs</li>
+            <li>Docker</li>
+            <li>Linux</li>
+            <li>Git</li>
+          </ul>
+        </div>
+        <div class="skills-group reveal">
+          <h3 class="skills-group-title">Frontend & Data</h3>
+          <ul class="skills-list">
+            <li>React</li>
+            <li>JavaScript</li>
+            <li>HTML / CSS</li>
+            <li>PostgreSQL</li>
+            <li>Supabase</li>
+            <li>Firebase</li>
+          </ul>
+        </div>
       </div>
     </div>
-    <ul>
-      <li>Developed a real-time AI-driven market intelligence system using RAG pipelines, hybrid retrieval, and streaming LLM responses to analyze high-volume marketplace data.</li>
-      <li>Engineered end-to-end data pipelines integrating FAISS vector retrieval, BM25 ranking, TF-IDF search, and structured event ingestion for grounded AI reasoning.</li>
-      <li>Designed multi-factor scoring systems and event-driven recommendation workflows to improve interpretability, confidence estimation, and actionable insights.</li>
-    </ul>
-    <div class="tech-stack">
-      <span class="tag">Python</span>
-      <span class="tag">FastAPI</span>
-      <span class="tag">React</span>
-      <span class="tag">FAISS</span>
-      <span class="tag">BM25</span>
-      <span class="tag">TF-IDF</span>
-      <span class="tag">LLMs</span>
-      <span class="tag">Vector Retrieval</span>
-    </div>
-  </div>
+  </section>
 
-  <div class="card">
-    <div class="card-header">
-      <div>
-        <h3>PENDA — Community Event & Third Place Discovery Platform</h3>
-        <p class="card-company">Full-Stack Web Application</p>
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container contact-inner">
+      <div class="section-label">Contact</div>
+      <h2 class="section-title">Let's build something.</h2>
+      <p class="contact-sub">Open to Applied AI, AI Engineering, and Product Engineering roles. U.S. Citizen — no visa sponsorship required.</p>
+      <div class="contact-links">
+        <a href="mailto:davidkevin.yang@gmail.com" class="contact-link">
+          <span class="contact-icon">✉</span>
+          davidkevin.yang@gmail.com
+        </a>
+        <a href="https://linkedin.com/in/david-k-yang/" target="_blank" rel="noopener" class="contact-link">
+          <span class="contact-icon">in</span>
+          linkedin.com/in/david-k-yang
+        </a>
+        <a href="https://github.com/yangkaiwen2002" target="_blank" rel="noopener" class="contact-link">
+          <span class="contact-icon">⌥</span>
+          github.com/yangkaiwen2002
+        </a>
+        <a href="assets/resume.pdf" target="_blank" class="contact-link">
+          <span class="contact-icon">↓</span>
+          Download Resume
+        </a>
       </div>
     </div>
-    <ul>
-      <li>Developed a community discovery platform helping users find local events and third places through personalized filtering, engagement-based ranking, and real-time event management.</li>
-      <li>Built frontend functionality using React and integrated interactive filtering, sorting, and user interaction systems to improve usability and local event discoverability.</li>
-      <li>Delivered a product-focused web application with an emphasis on intuitive UX, iterative feedback cycles, and scalable feature design.</li>
-    </ul>
-    <div class="tech-stack">
-      <span class="tag">React</span>
-      <span class="tag">JavaScript</span>
-      <span class="tag">Firebase</span>
-      <span class="tag">REST APIs</span>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2026 David Yang</span>
+      <span>Built with HTML, CSS & JS</span>
     </div>
-  </div>
+  </footer>
 
-</section>
-
-<!-- Research -->
-<section id="research" class="section fade-in">
-  <h2>Research & Publications</h2>
-
-  <div class="card">
-    <h3>Single-Line LiDAR Localization via Contribution Sampling and Map Update Technology</h3>
-    <p class="meta">Sensors (MDPI), 2024 &nbsp;·&nbsp; Volume 24, Issue 12 &nbsp;·&nbsp; 3927</p>
-    <p>
-      Co-authored a peer-reviewed publication introducing <strong>CSMUL</strong>, a robust localization
-      framework for single-line LiDAR in degenerate and dynamic environments.
-    </p>
-    <ul>
-      <li>Designed contribution sampling strategy to reduce localization degeneration in corridor-like environments</li>
-      <li>Implemented dynamic map anomaly detection using ray-casting and multi-view voting</li>
-      <li>Benchmarked against AMCL across simulation and real-world datasets</li>
-    </ul>
-    <div class="button-group">
-      <a href="https://doi.org/10.3390/s24123927" target="_blank" class="btn">View Publication</a>
-      <a href="assets/sensors-24-03927.pdf" target="_blank" class="btn-outline">Download Paper</a>
-    </div>
-  </div>
-
-</section>
-
-<!-- Technical Skills -->
-<section id="skills" class="section fade-in">
-  <h2>Technical Skills</h2>
-
-  <div class="skills-grid">
-    <div class="skill-group">
-      <h4>Languages</h4>
-      <div class="tag-list">
-        <span class="tag">Python</span>
-        <span class="tag">C++</span>
-        <span class="tag">JavaScript</span>
-        <span class="tag">SQL</span>
-        <span class="tag">Java</span>
-      </div>
-    </div>
-    <div class="skill-group">
-      <h4>Frameworks & Tools</h4>
-      <div class="tag-list">
-        <span class="tag">React</span>
-        <span class="tag">FastAPI</span>
-        <span class="tag">Node.js</span>
-        <span class="tag">Docker</span>
-        <span class="tag">Firebase</span>
-        <span class="tag">Git</span>
-      </div>
-    </div>
-    <div class="skill-group">
-      <h4>AI & Data</h4>
-      <div class="tag-list">
-        <span class="tag">RAG</span>
-        <span class="tag">FAISS</span>
-        <span class="tag">BM25</span>
-        <span class="tag">TF-IDF</span>
-        <span class="tag">Vector Retrieval</span>
-        <span class="tag">Computer Vision</span>
-        <span class="tag">PyTorch</span>
-        <span class="tag">OCR Pipelines</span>
-      </div>
-    </div>
-    <div class="skill-group">
-      <h4>Systems & Infrastructure</h4>
-      <div class="tag-list">
-        <span class="tag">Linux/Unix</span>
-        <span class="tag">REST APIs</span>
-        <span class="tag">PostgreSQL</span>
-        <span class="tag">Data Pipelines</span>
-      </div>
-    </div>
-  </div>
-
-</section>
-
-<!-- Resume -->
-<section id="resume" class="section fade-in">
-  <h2>Resume</h2>
-  <p>Download the PDF above, or preview it below.</p>
-  <iframe
-    src="assets/resume.pdf"
-    width="100%"
-    height="600px"
-    style="border-radius:12px; margin-block-start:20px;">
-  </iframe>
-</section>
-
-<!-- Contact -->
-<section id="contact" class="section fade-in">
-  <h2>Contact</h2>
-  <p style="color:#94a3b8; margin-block-end:28px;">
-    Open to applied AI and software engineering roles. Feel free to reach out.
-  </p>
-  <div class="contact-links">
-    <a href="mailto:davidkevin.yang@gmail.com" class="contact-btn">
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
-           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
-      </svg>
-      davidkevin.yang@gmail.com
-    </a>
-    <a href="https://linkedin.com/in/david-k-yang/" target="_blank" class="contact-btn">
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
-        <rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/>
-      </svg>
-      linkedin.com/in/david-k-yang
-    </a>
-    <a href="https://github.com/yangkaiwen2002" target="_blank" class="contact-btn">
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54
-                 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38
-                 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5
-                 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
-      </svg>
-      github.com/yangkaiwen2002
-    </a>
-  </div>
-</section>
-
-<!-- Footer -->
-<footer>
-  © 2026 David Yang &nbsp;·&nbsp; Built with HTML, CSS & JavaScript
-</footer>
-
-<!-- Script -->
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
