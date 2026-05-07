@@ -627,15 +627,16 @@ ul {
 }
 
 /* ── Scroll reveal ── */
-.reveal {
+/* Only hide when JS has confirmed it's running — prevents blank page on cache/error */
+.js-ready .reveal {
   opacity: 0;
   transform: translateY(16px);
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .reveal.visible {
-  opacity: 1;
-  transform: translateY(0);
+  opacity: 1 !important;
+  transform: translateY(0) !important;
 }
 
 /* ── Responsive ── */

@@ -1,3 +1,6 @@
+// Signal to CSS that JS is running — enables reveal animations safely
+document.documentElement.classList.add('js-ready');
+
 // Scroll reveal — handles both .reveal and legacy .fade-in
 const revealObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
